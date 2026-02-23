@@ -9,7 +9,7 @@ function generator(response) {
   });
 }
 
-let apiKey = "d03cbc9of2636a047c1f18afat64d481";
+let apiKey = "YOUR_API_KEY";
 let context = "let it be a short poem";
 
 function getPoem(event) {

@@ -42,3 +42,48 @@
     <script src="index.js"></script>
   </body>
 </html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Poetry Generator</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Poetry generator</h1>
+      </header>
+
+      <form id="vernac">
+        <input
+          type="text"
+          placeholder="Search poem topic"
+          autofocus
+          required
+          id="prompter"
+        />
+        <input type="submit" value="Submit" class="sub" />
+        <small id="instructions">i.e flower,love..</small>
+      </form>
+
+      <br /><br />
+
+      <div id="poem">
+        <p id="poem-text">Incoming poem…</p>
+      </div>
+
+      <footer>
+        <small id="foot">
+          Created by <strong>Sbahle Mafuleka</strong>, hosted on
+          <a href="https://github.com/sbahlemafuleka/SheCodesAI">GitHub</a>
+        </small>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
